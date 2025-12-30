@@ -1,0 +1,101 @@
+/* 전체 레이아웃 */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* 헤더 */
+.header {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 20px;
+  background-color: #e9ecef;
+  color: #495057;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+ 
+/* 차트 */
+.chart-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* 상태 */
+.status-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  color: #868e96;
+}
+
+/* 푸터 */
+.footer {
+  margin-top: 40px;
+  color: #adb5bd;
+  font-size: 0.8rem;
+}
+
+/* 검색창 */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #36A2EB;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #36A2EB;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #2481ce;
+}
+
+.current-station {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
